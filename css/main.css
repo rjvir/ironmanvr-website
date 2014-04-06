@@ -13,7 +13,7 @@
 .bottom-bar {
     background-color:rgba(141,27,25, .85);
     position:absolute;
-    bottom:0;
+    bottom:200px;
     padding:20px;
     width:100%;
 }
@@ -81,6 +81,17 @@
     color:#fff;
     text-align:left;
     margin-top:10px;
+}
+
+.fb-like-container {
+    display:block;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+
+.fb-like.fb_edge_widget_with_comment.fb_iframe_widget span iframe {
+    /* Now you can apply css here */
+    bottom:0!important;
 }
 
 #wrapper {display:table;}
